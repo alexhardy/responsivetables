@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+<title>Responsive Tables</title>
+</head>
+<body>
+
+<main role="main">
+
+<h1>Responsive Tables</h1>
+
+<ul>
+<li><a href="#2col">2-column</a></li>
+<li><a href="#3col">3-column</a></li>
+<li><a href="#4col">4-column</a></li>
+<li><a href="#5col">5-column</a></li>
+<li><a href="#6col">6-column</a></li>
+</ul>
+
+<h3 id="2col">2-column</h3>
+
+<table class="2col" summary="2-column table example">
+<caption>2-column table example</caption>
+<thead>
+	<tr>
+		<th abbr="Col 1" scope="col">Column 1</th>
+		<th abbr="Col 2" class="col-isactive" scope="col">Column 2</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 1</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 2</th>
+		<td class="col-isactive">Column 2, Row 2</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 3</th>
+		<td class="col-isactive">Column 2, Row 3</td>
+	</tr>
+</tbody>
+</table>
+
+<h3 id="3col">3-column</h3>
+
+<p><a href="#" class="toggle-col toggle-col-isactive">Column 2</a> <a href="#" class="toggle-col">Column 3</a></p>
+
+<table class="3col" summary="3-column table example">
+<caption>3-column table example</caption>
+<thead>
+	<tr>
+		<th abbr="Col 1" scope="col">Column 1</th>
+		<th abbr="Col 2" class="col-isactive" scope="col">Column 2</th>
+		<th abbr="Col 3" scope="col">Column 3</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 1</td>
+		<td>Column 3, Row 1</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 2</th>
+		<td class="col-isactive">Column 2, Row 2</td>
+		<td>Column 3, Row 2</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 3</th>
+		<td class="col-isactive">Column 2, Row 3</td>
+		<td>Column 3, Row 3</td>
+	</tr>
+</tbody>
+</table>
+
+<h3 id="4col">4-column</h3>
+
+<p><a href="#" class="toggle-col toggle-col-isactive">Column 2</a> <a href="#" class="toggle-col">Column 3</a> <a href="#" class="toggle-col">Column 4</a></p>
+
+<table class="4col" summary="4-column table example">
+<caption>4-column table example</caption>
+<thead>
+	<tr>
+		<th abbr="Col 1" scope="col">Column 1</th>
+		<th abbr="Col 2" class="col-isactive" scope="col">Column 2</th>
+		<th abbr="Col 3" scope="col">Column 3</th>
+		<th abbr="Col 4" scope="col">Column 4</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 1</td>
+		<td>Column 3, Row 1</td>
+		<td>Column 4, Row 1</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 2</th>
+		<td class="col-isactive">Column 2, Row 2</td>
+		<td>Column 3, Row 2</td>
+		<td>Column 4, Row 2</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 3</th>
+		<td class="col-isactive">Column 2, Row 3</td>
+		<td>Column 3, Row 3</td>
+		<td>Column 4, Row 3</td>
+	</tr>
+</tbody>
+</table>
+
+<h3 id="5col">5-column</h3>
+
+<p><a href="#" class="toggle-col toggle-col-isactive">Column 2</a> <a href="#" class="toggle-col">Column 3</a> <a href="#" class="toggle-col">Column 4</a> <a href="#" class="toggle-col">Column 5</a></p>
+
+<table class="5col" summary="5-column table example">
+<caption>5-column table example</caption>
+<thead>
+	<tr>
+		<th abbr="Col 1" scope="col">Column 1</th>
+		<th abbr="Col 2" class="col-isactive" scope="col">Column 2</th>
+		<th abbr="Col 3" scope="col">Column 3</th>
+		<th abbr="Col 4" scope="col">Column 4</th>
+		<th abbr="Col 5" scope="col">Column 5</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 1</td>
+		<td>Column 3, Row 1</td>
+		<td>Column 4, Row 1</td>
+		<td>Column 5, Row 1</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 2</td>
+		<td>Column 3, Row 2</td>
+		<td>Column 4, Row 2</td>
+		<td>Column 5, Row 2</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 3</td>
+		<td>Column 3, Row 3</td>
+		<td>Column 4, Row 3</td>
+		<td>Column 5, Row 3</td>
+	</tr>
+</tbody>
+</table>
+
+<h3 id="6col">6-column</h3>
+
+<p><a href="#" class="toggle-col toggle-col-isactive">Column 2</a> <a href="#" class="toggle-col">Column 3</a> <a href="#" class="toggle-col">Column 4</a> <a href="#" class="toggle-col">Column 5</a> <a href="#" class="toggle-col">Column 6</a></p>
+
+<table class="table-6col" summary="6-column table example">
+<caption>6-column table example</caption>
+<thead>
+	<tr>
+		<th abbr="Col 1" scope="col">Column 1</th>
+		<th abbr="Col 2" class="col-isactive" scope="col">Column 2</th>
+		<th abbr="Col 3" scope="col">Column 3</th>
+		<th abbr="Col 4" scope="col">Column 4</th>
+		<th abbr="Col 5" scope="col">Column 5</th>
+		<th abbr="Col 6" scope="col">Column 5</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 1</td>
+		<td>Column 3, Row 1</td>
+		<td>Column 4, Row 1</td>
+		<td>Column 5, Row 1</td>
+		<td>Column 6, Row 1</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 2</td>
+		<td>Column 3, Row 2</td>
+		<td>Column 4, Row 2</td>
+		<td>Column 5, Row 2</td>
+		<td>Column 6, Row 2</td>
+	</tr>
+	<tr>
+		<th scope="row">Row 1</th>
+		<td class="col-isactive">Column 2, Row 3</td>
+		<td>Column 3, Row 3</td>
+		<td>Column 4, Row 3</td>
+		<td>Column 5, Row 3</td>
+		<td>Column 6, Row 3</td>
+	</tr>
+</tbody>
+</table>
+
+</main>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
